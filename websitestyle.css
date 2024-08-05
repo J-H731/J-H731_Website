@@ -1,6 +1,11 @@
-h1, img {
+h1 {
     text-align: center;
 }
 body {
     background-color: aquamarine;
+}
+img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Responsive image */
 }
