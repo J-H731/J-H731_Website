@@ -1,11 +1,39 @@
-h1 {
+h1, footer {
     text-align: center;
 }
 body {
-    background-color: aquamarine;
+    background-color: aqua;
+    margin: 20px;
 }
 img {
     display: block; /* Make the image a block element */
     margin: 0 auto; /* Center the image */
     max-width: 100%; /* Responsive image */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imghtml, .imgcss {
+    max-width: 80%;
+}
+main, footer {
+    padding: 20px;
+    background-color: azure;
+}
+hr {
+    height: 2px;
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+/* LINK BEHAVIOuR */
+a {
+    color: blue;
+}
+a:visited { 
+    color: grey; 
+}
+a:hover { 
+    color: purple; 
+}
+a:active { 
+    color: green; 
 }
